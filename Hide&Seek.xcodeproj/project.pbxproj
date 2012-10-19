@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1B07C816300601002D1984 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1B07C716300601002D1984 /* QuartzCore.framework */; };
+		9AC4DAF616313364007A0FD8 /* Vishnu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4DAF316313364007A0FD8 /* Vishnu.jpg */; };
+		9AC4DAF716313364007A0FD8 /* god.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4DAF416313364007A0FD8 /* god.jpg */; };
+		9AC4DAF816313364007A0FD8 /* amma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AC4DAF516313364007A0FD8 /* amma.jpg */; };
+		9AE5B5E4162E932E0063022A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE5B5E3162E932E0063022A /* UIKit.framework */; };
+		9AE5B5E6162E932E0063022A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE5B5E5162E932E0063022A /* Foundation.framework */; };
+		9AE5B5E8162E932E0063022A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AE5B5E7162E932E0063022A /* CoreGraphics.framework */; };
+		9AE5B5EE162E932E0063022A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5B5EC162E932E0063022A /* InfoPlist.strings */; };
+		9AE5B5F0162E932E0063022A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5B5EF162E932E0063022A /* main.m */; };
+		9AE5B5F4162E932E0063022A /* HSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5B5F3162E932E0063022A /* HSAppDelegate.m */; };
+		9AE5B5F7162E932E0063022A /* HSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5B5F6162E932E0063022A /* HSViewController.m */; };
+		9AE5B5FA162E932E0063022A /* HSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5B5F8162E932E0063022A /* HSViewController.xib */; };
+		9AE5B602162E937C0063022A /* Sairam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5B600162E937C0063022A /* Sairam.jpg */; };
+		9AE5B603162E937C0063022A /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5B601162E937C0063022A /* flower.jpg */; };
+		9AE5B606162E94060063022A /* large-frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5B604162E94060063022A /* large-frame.png */; };
+		9AE5B607162E94060063022A /* oval_frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AE5B605162E94060063022A /* oval_frame.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A1B07C716300601002D1984 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		9AC4DAF316313364007A0FD8 /* Vishnu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Vishnu.jpg; sourceTree = "<group>"; };
+		9AC4DAF416313364007A0FD8 /* god.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = god.jpg; sourceTree = "<group>"; };
+		9AC4DAF516313364007A0FD8 /* amma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = amma.jpg; sourceTree = "<group>"; };
+		9AE5B5DF162E932E0063022A /* Hide&Seek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hide&Seek.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AE5B5E3162E932E0063022A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9AE5B5E5162E932E0063022A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9AE5B5E7162E932E0063022A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9AE5B5EB162E932E0063022A /* Hide&Seek-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hide&Seek-Info.plist"; sourceTree = "<group>"; };
+		9AE5B5ED162E932E0063022A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9AE5B5EF162E932E0063022A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9AE5B5F1162E932E0063022A /* Hide&Seek-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hide&Seek-Prefix.pch"; sourceTree = "<group>"; };
+		9AE5B5F2162E932E0063022A /* HSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSAppDelegate.h; sourceTree = "<group>"; };
+		9AE5B5F3162E932E0063022A /* HSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSAppDelegate.m; sourceTree = "<group>"; };
+		9AE5B5F5162E932E0063022A /* HSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HSViewController.h; sourceTree = "<group>"; };
+		9AE5B5F6162E932E0063022A /* HSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HSViewController.m; sourceTree = "<group>"; };
+		9AE5B5F9162E932E0063022A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/HSViewController.xib; sourceTree = "<group>"; };
+		9AE5B600162E937C0063022A /* Sairam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sairam.jpg; sourceTree = "<group>"; };
+		9AE5B601162E937C0063022A /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		9AE5B604162E94060063022A /* large-frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "large-frame.png"; sourceTree = "<group>"; };
+		9AE5B605162E94060063022A /* oval_frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oval_frame.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AE5B5DC162E932E0063022A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1B07C816300601002D1984 /* QuartzCore.framework in Frameworks */,
+				9AE5B5E4162E932E0063022A /* UIKit.framework in Frameworks */,
+				9AE5B5E6162E932E0063022A /* Foundation.framework in Frameworks */,
+				9AE5B5E8162E932E0063022A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9AE5B5D4162E932C0063022A = {
+			isa = PBXGroup;
+			children = (
+				9A1B07C716300601002D1984 /* QuartzCore.framework */,
+				9AE5B5E9162E932E0063022A /* Hide&Seek */,
+				9AE5B5E2162E932E0063022A /* Frameworks */,
+				9AE5B5E0162E932E0063022A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9AE5B5E0162E932E0063022A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AE5B5DF162E932E0063022A /* Hide&Seek.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AE5B5E2162E932E0063022A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AE5B5E3162E932E0063022A /* UIKit.framework */,
+				9AE5B5E5162E932E0063022A /* Foundation.framework */,
+				9AE5B5E7162E932E0063022A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9AE5B5E9162E932E0063022A /* Hide&Seek */ = {
+			isa = PBXGroup;
+			children = (
+				9AE5B5F2162E932E0063022A /* HSAppDelegate.h */,
+				9AE5B5F3162E932E0063022A /* HSAppDelegate.m */,
+				9AE5B5F5162E932E0063022A /* HSViewController.h */,
+				9AE5B5F6162E932E0063022A /* HSViewController.m */,
+				9AE5B5F8162E932E0063022A /* HSViewController.xib */,
+				9AE5B5EA162E932E0063022A /* Supporting Files */,
+			);
+			path = "Hide&Seek";
+			sourceTree = "<group>";
+		};
+		9AE5B5EA162E932E0063022A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9AC4DAF316313364007A0FD8 /* Vishnu.jpg */,
+				9AC4DAF416313364007A0FD8 /* god.jpg */,
+				9AC4DAF516313364007A0FD8 /* amma.jpg */,
+				9AE5B604162E94060063022A /* large-frame.png */,
+				9AE5B605162E94060063022A /* oval_frame.png */,
+				9AE5B600162E937C0063022A /* Sairam.jpg */,
+				9AE5B601162E937C0063022A /* flower.jpg */,
+				9AE5B5EB162E932E0063022A /* Hide&Seek-Info.plist */,
+				9AE5B5EC162E932E0063022A /* InfoPlist.strings */,
+				9AE5B5EF162E932E0063022A /* main.m */,
+				9AE5B5F1162E932E0063022A /* Hide&Seek-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AE5B5DE162E932E0063022A /* Hide&Seek */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AE5B5FD162E932E0063022A /* Build configuration list for PBXNativeTarget "Hide&Seek" */;
+			buildPhases = (
+				9AE5B5DB162E932E0063022A /* Sources */,
+				9AE5B5DC162E932E0063022A /* Frameworks */,
+				9AE5B5DD162E932E0063022A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hide&Seek";
+			productName = "Hide&Seek";
+			productReference = 9AE5B5DF162E932E0063022A /* Hide&Seek.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AE5B5D6162E932C0063022A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 9AE5B5D9162E932C0063022A /* Build configuration list for PBXProject "Hide&Seek" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9AE5B5D4162E932C0063022A;
+			productRefGroup = 9AE5B5E0162E932E0063022A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AE5B5DE162E932E0063022A /* Hide&Seek */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AE5B5DD162E932E0063022A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE5B5EE162E932E0063022A /* InfoPlist.strings in Resources */,
+				9AE5B5FA162E932E0063022A /* HSViewController.xib in Resources */,
+				9AE5B602162E937C0063022A /* Sairam.jpg in Resources */,
+				9AE5B603162E937C0063022A /* flower.jpg in Resources */,
+				9AE5B606162E94060063022A /* large-frame.png in Resources */,
+				9AE5B607162E94060063022A /* oval_frame.png in Resources */,
+				9AC4DAF616313364007A0FD8 /* Vishnu.jpg in Resources */,
+				9AC4DAF716313364007A0FD8 /* god.jpg in Resources */,
+				9AC4DAF816313364007A0FD8 /* amma.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AE5B5DB162E932E0063022A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AE5B5F0162E932E0063022A /* main.m in Sources */,
+				9AE5B5F4162E932E0063022A /* HSAppDelegate.m in Sources */,
+				9AE5B5F7162E932E0063022A /* HSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9AE5B5EC162E932E0063022A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE5B5ED162E932E0063022A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9AE5B5F8162E932E0063022A /* HSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AE5B5F9162E932E0063022A /* en */,
+			);
+			name = HSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AE5B5FB162E932E0063022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9AE5B5FC162E932E0063022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AE5B5FE162E932E0063022A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hide&Seek/Hide&Seek-Prefix.pch";
+				INFOPLIST_FILE = "Hide&Seek/Hide&Seek-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9AE5B5FF162E932E0063022A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hide&Seek/Hide&Seek-Prefix.pch";
+				INFOPLIST_FILE = "Hide&Seek/Hide&Seek-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AE5B5D9162E932C0063022A /* Build configuration list for PBXProject "Hide&Seek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE5B5FB162E932E0063022A /* Debug */,
+				9AE5B5FC162E932E0063022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AE5B5FD162E932E0063022A /* Build configuration list for PBXNativeTarget "Hide&Seek" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE5B5FE162E932E0063022A /* Debug */,
+				9AE5B5FF162E932E0063022A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9AE5B5D6162E932C0063022A /* Project object */;
+}
